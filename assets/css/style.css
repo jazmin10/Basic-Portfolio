@@ -20,11 +20,21 @@ h1 {
 	float: left;
 	font-family: "Georgia", Times, Times New Roman, serif;
 	margin-bottom: 0;
+	margin-left: 80px;
+	padding: 20px;
 }
 
 .menu {
 	float: right;
 	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	margin-top: 50px;
+	margin-right: 310px;
+}
+
+.menuOptions {
+	padding: 10px;
+	color: #777;
+	text-decoration: none;
 }
 
 .container {
@@ -35,17 +45,23 @@ h1 {
 
 #aboutMe {
 	float: left;
-	width: 45%;
+	width: 50%;
 	border-style: solid;
 	border-color: #ddd;
 	background-color: #fff;
+	padding: 20px;
+	width: 650px;
+	margin: 80px 30px 80px 80px;
 }
 
 #connectWithMe {
-	float: right;
+	float: left;
 	border-style: solid;
 	border-color: #ddd;
 	background-color: #fff;
+	padding: 20px;
+	width: 270px;
+	margin-top: 80px;
 
 }
 
@@ -54,11 +70,26 @@ h2 {
 	font-family: "Georgia", Times, Times New Roman, serif;
 	border-bottom: solid;
 	border-color: #ccc;
+	margin: 0;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
 
+h3 {
+	color: #4aaaa5;
+	font-family: "Georgia", Times, Times New Roman, serif;
+	border-bottom: solid;
+	border-color: #ccc;
+	margin: 0;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	text-align: center;
 }
 
 p {
 	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	line-height: 1.9;
+	color: #777;
 }
 
 footer {
@@ -67,12 +98,176 @@ footer {
 	text-align: center;
 	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 	color: #ccc;
-	position: fixed;
-	bottom: 0;
-	width: 100%;
+	padding: 40px;
+	border-top: solid;
+	border-color: #4aaaa5;
+	border-top-width: 5px;
 }
 
-img {
+#myImage {
 	float: left;
-	width: 20%;
+	width: 30%;
+	margin-right: 20px;
+	margin-top: 20px;
 }
+
+#GitHub, #LinkedIn, #StackOverflow {
+	width: 70px;
+	padding-top: 20px;
+}
+
+#contact {
+	float: left;
+	width: 50%;
+	border-style: solid;
+	border-color: #ddd;
+	background-color: #fff;
+	padding: 20px;
+	width: 650px;
+	margin: 80px 30px 80px 80px;
+}
+
+form {
+	padding-top: 20px;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	color: #777;
+}
+
+input {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	color: #777;
+	width: 600px;
+	padding: 5px
+}
+
+#message {
+	height: 200px;
+}
+
+button {
+	background-color: #4aaaa5;
+	color: #fff;
+	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+	border: none;
+	padding: 7px;
+	width: 90px;
+	height: 35px;
+	font-size: 15px;
+}
+
+
+#portfolio1 {
+	position: relative;
+	float: left;
+}
+
+#hangman {
+	position: absolute;
+	background-color: #4aaaa5;
+	bottom: 20px;
+	font-family: "Georgia", Times, Times New Roman, serif;
+	color: #fff;
+	width: 280px;
+    text-align: center;
+    padding: 15px;
+}
+
+#portfolioImage1 {
+	margin: 30px 20px 10px 0px;
+    width: 280px;
+    height: 200px;
+}
+
+#portfolio2 {
+	position: relative;
+	float: left;
+}
+
+#rpgGame {
+	position: absolute;
+	background-color: #4aaaa5;
+	bottom: 20px;
+	right: 0;
+	font-family: "Georgia", Times, Times New Roman, serif;
+	color: #fff;
+	width: 280px;
+    text-align: center;
+    padding: 15px;
+}
+
+#portfolioImage2 {
+	margin: 30px 0px 10px 20px;
+    width: 280px;
+    height: 200px;
+}
+
+#portfolio3 {
+	position: relative;
+	float: left;
+}
+
+#triviaGame {
+	position: absolute;
+	background-color: #4aaaa5;
+	bottom: 20px;
+	font-family: "Georgia", Times, Times New Roman, serif;
+	color: #fff;
+	width: 280px;
+    text-align: center;
+    padding: 15px;
+}
+
+#portfolioImage3 {
+	margin: 30px 20px 10px 0px;
+    width: 280px;
+    height: 200px;
+}
+
+#portfolio4 {
+	position: relative;
+	float: left;
+}
+
+#rutgers {
+	position: absolute;
+	background-color: #4aaaa5;
+	bottom: 20px;
+	right: 0;
+	font-family: "Georgia", Times, Times New Roman, serif;
+	color: #fff;
+	width: 280px;
+    text-align: center;
+    padding: 15px;
+}
+
+#portfolioImage4 {
+	margin: 30px 0px 10px 20px;
+    width: 280px;
+    height: 200px;
+}
+
+#portfolio5 {
+	position: relative;
+	float: left;
+}
+
+#rock {
+	position: absolute;
+	background-color: #4aaaa5;
+	bottom: 20px;
+	font-family: "Georgia", Times, Times New Roman, serif;
+	color: #fff;
+	width: 280px;
+    text-align: center;
+    padding: 15px;
+}
+
+#portfolioImage5 {
+	margin: 30px 20px 10px 0px;
+    width: 280px;
+    height: 200px;
+}
+
+
+
