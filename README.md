@@ -1,8 +1,10 @@
 # That Portfolio Though
-A professional portfolio using only HTML and CSS. This was my first html/css project!
 
 ### Overview
-I had to replicate these screenshots:
+
+A professional portfolio using only HTML and CSS. This was my first html/css project!
+
+### Screenshots to replicate
 
 #### About Page
 
